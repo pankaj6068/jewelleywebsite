@@ -1,0 +1,92 @@
+@media screen and (max-width: 1000px){
+    .logo{
+        align-items: center;
+        margin: 15px 230px;
+    }
+    .logo img{
+        width: 180px;
+    }
+    header{
+        height: 21vh;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+
+    .logo{
+        justify-content: center;
+        /* margin: 15px 230px; */
+        width: 33vh;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin: 0;
+        height: 0vh;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+       width: 35vw;
+    }
+
+    nav ul a{
+        height: 58px;
+    }
+    .select{
+        position: absolute;
+        left: 20px;
+        top: 170px;
+    }
+
+    .card-item img{ 
+        width: 140px;
+        display: flex;
+        justify-content: center;
+    }
+    .cards{
+        overflow: scroll;
+        display: flex;
+        justify-content: center;
+    }
+    .no1 p{
+            font-size: 35px;
+    }
+}
+    
+@media screen and (max-width: 532px){
+    .logo{
+        margin: 1px 1px 12px 1px;
+    }
+    .slider{
+        margin-top: 2px;
+    }
+    .slider video{
+        width: 300px;
+    }
+    
+    
+    .credit {
+        margin: 150px 0 0px px;
+        font-size: 45px;
+    } 
+    .social .fa {
+        /* display: inline-block; */
+        margin-top: 4x;
+    }
+    .flex-all-center p {
+        margin: -135px -333px 12px 0;
+    }
+    .no1 p{
+        font-size: 20px;
+    }
+} 
+    @media screen and (max-width: 480px){
+        .logo img{
+            width: 90px;
+        }
+}
