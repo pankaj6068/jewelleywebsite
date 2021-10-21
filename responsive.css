@@ -1,0 +1,29 @@
+@media screen and (max-width:1350px){
+body
+    {
+        background-color: red;
+    }
+    .first{
+        flex-direction: column;
+        height: 18vh;
+    }
+    .logo {
+        display:flex;
+        justify-content: center;
+        
+    }
+    .first ul{ 
+        justify-content: center;
+
+    }
+    .seachbar{
+        justify-content: center;
+    }
+    .slider{
+        height: 23vh;
+    }
+    .cards{
+        hei;
+    }
+}
+    
